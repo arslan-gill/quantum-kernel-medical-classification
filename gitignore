@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# PennyLane / quantum sim caches (if any get generated locally)
+.qml_cache/
+
+# Local scratch outputs (only ignore future/regenerated runs, not the
+# committed results.json / results_summary.csv / fig*.png tracked in this repo)
+*_local.json
+*_scratch.csv
