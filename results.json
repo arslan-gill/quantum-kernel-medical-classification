@@ -1,0 +1,62 @@
+{
+  "quantum_linear": {
+    "label": "Quantum Kernel SVM (linear entanglement)",
+    "cv_accuracy_mean": 0.6833333333333333,
+    "cv_accuracy_std": 0.06770032003863298,
+    "cv_f1_mean": 0.6717845117845117,
+    "cv_f1_std": 0.08906481926585004,
+    "kernel_target_alignment": 0.08347493102259666,
+    "expressibility_kl": 0.12758831068014728,
+    "kernel_computation_time_s": 0.4476175308227539
+  },
+  "quantum_full": {
+    "label": "Quantum Kernel SVM (full entanglement)",
+    "cv_accuracy_mean": 0.675,
+    "cv_accuracy_std": 0.07168604389202192,
+    "cv_f1_mean": 0.6557824966795218,
+    "cv_f1_std": 0.08476429230167831,
+    "kernel_target_alignment": 0.08153633803442717,
+    "expressibility_kl": 0.08584724696542609,
+    "kernel_computation_time_s": 0.685685396194458
+  },
+  "svm_rbf": {
+    "label": "Classical SVM (RBF kernel)",
+    "cv_accuracy_mean": 0.9333333333333333,
+    "cv_accuracy_std": 0.062360956446232345,
+    "cv_f1_mean": 0.9371794871794872,
+    "cv_f1_std": 0.05796233105362726,
+    "kernel_target_alignment": null,
+    "expressibility_kl": null,
+    "kernel_computation_time_s": 0.016419410705566406
+  },
+  "svm_poly": {
+    "label": "Classical SVM (polynomial, deg=3)",
+    "cv_accuracy_mean": 0.9416666666666667,
+    "cv_accuracy_std": 0.056519416526043906,
+    "cv_f1_mean": 0.944,
+    "cv_f1_std": 0.054258639865002144,
+    "kernel_target_alignment": null,
+    "expressibility_kl": null,
+    "kernel_computation_time_s": 0.015600919723510742
+  },
+  "svm_linear": {
+    "label": "Classical SVM (linear kernel)",
+    "cv_accuracy_mean": 0.95,
+    "cv_accuracy_std": 0.0311804782231162,
+    "cv_f1_mean": 0.9532307692307693,
+    "cv_f1_std": 0.028626962091355068,
+    "kernel_target_alignment": null,
+    "expressibility_kl": null,
+    "kernel_computation_time_s": 0.017519474029541016
+  },
+  "neural_net": {
+    "label": "Neural Network (MLP, 2x16)",
+    "cv_accuracy_mean": 0.9583333333333334,
+    "cv_accuracy_std": 0.045643546458763846,
+    "cv_f1_mean": 0.96,
+    "cv_f1_std": 0.04381780460041329,
+    "kernel_target_alignment": null,
+    "expressibility_kl": null,
+    "kernel_computation_time_s": 0.7841646671295166
+  }
+}
