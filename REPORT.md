@@ -1,4 +1,4 @@
-<img width="772" height="572" alt="fig4_alignment_vs_accuracy" src="https://github.com/user-attachments/assets/fa74079b-e663-4d84-b399-329d625e20a4" /># Quantum Kernel Methods for Small-Sample Medical Classification
+# Quantum Kernel Methods for Small-Sample Medical Classification
 
 **Benchmarking a Fidelity Quantum Kernel Against Classical Kernels, with Kernel-Target Alignment and Expressibility Diagnostics**
 
@@ -125,7 +125,6 @@ the choice of entangling connectivity did not meaningfully change the outcome.
 
 ![Figure 1](fig1_kernel_matrices.png)
 
-
 *Figure 1. Kernel Gram matrices — quantum (linear), quantum (full), and classical RBF — samples
 sorted by class, dashed line marks the class boundary. The classical RBF kernel shows visible block
 structure aligned with class boundaries; the quantum kernels show comparatively little.*
@@ -141,8 +140,7 @@ Chance level (0.5) marked for reference.*
 theoretical Haar-random distribution — the closer a histogram sits to the dashed reference curve, the
 more expressible the circuit.*
 
-![Figure 4]<img width="772" height="572" alt="fig4_alignment_vs_accuracy" src="https://github.com/user-attachments/assets/b03fd731-b7e3-44b7-801c-9d115da4211e" />
-
+![Figure 4](fig4_alignment_vs_accuracy.png)
 
 *Figure 4. Kernel-target alignment plotted against cross-validated accuracy for both quantum kernel
 variants — both metrics move together in this small comparison, consistent with alignment being a
