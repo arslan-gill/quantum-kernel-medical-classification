@@ -123,16 +123,24 @@ the choice of entangling connectivity did not meaningfully change the outcome.
 
 ### 3.2 Visual comparison
 
+![Figure 1](fig1_kernel_matrices.png)
+
 *Figure 1. Kernel Gram matrices — quantum (linear), quantum (full), and classical RBF — samples
 sorted by class, dashed line marks the class boundary. The classical RBF kernel shows visible block
 structure aligned with class boundaries; the quantum kernels show comparatively little.*
 
+![Figure 2](fig2_accuracy_comparison.png)
+
 *Figure 2. Cross-validated accuracy across all six models, error bars from 5-fold standard deviation.
 Chance level (0.5) marked for reference.*
+
+![Figure 3](fig3_expressibility.png)
 
 *Figure 3. Empirical pairwise-fidelity distribution of both quantum feature maps against the
 theoretical Haar-random distribution — the closer a histogram sits to the dashed reference curve, the
 more expressible the circuit.*
+
+![Figure 4](fig4_alignment_vs_accuracy.png)
 
 *Figure 4. Kernel-target alignment plotted against cross-validated accuracy for both quantum kernel
 variants — both metrics move together in this small comparison, consistent with alignment being a
